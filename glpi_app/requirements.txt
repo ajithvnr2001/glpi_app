@@ -1,0 +1,12 @@
+requests
+python-dotenv
+unstructured
+langchain
+chromadb
+pydantic
+typing-extensions
+fastapi
+uvicorn
+boto3
+langchain-ibm
+reportlab
