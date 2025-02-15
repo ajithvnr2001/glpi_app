@@ -1,11 +1,12 @@
 import os
-from langchain.vectorstores import Chroma
+# from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from unstructured.partition.html import partition_html
 from typing import List, Dict
 from langchain_ibm import WatsonxLLM
 import requests
 from langchain.embeddings.base import Embeddings
+from langchain_community.vectorstores import Chroma
 
 class IBMEmebeddings(Embeddings):
     def __init__(self):
