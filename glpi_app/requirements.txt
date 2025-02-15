@@ -10,3 +10,4 @@ uvicorn
 boto3
 langchain-ibm
 reportlab
+langchain-community
